@@ -35,7 +35,7 @@ INSERT INTO "SystemAccount"
 VALUES
 (
     'System Admin',
-    'admin@tasktrack.com',
+    'admin@test.com',
     '$2y$10$yBMXgsPcn..6sYcGE8KWWO/6vhsDvV4lHlJAkfKdq2e3VZlRtgXXi',
     1
 );
