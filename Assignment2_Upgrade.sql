@@ -21,3 +21,21 @@ BEGIN
             REFERENCES "SystemAccount" ("AccountID") ON DELETE RESTRICT;
     END IF;
 END $$;
+
+-- =======================
+-- Password: 1234567890
+-- =======================
+INSERT INTO "SystemAccount"
+(
+    "FullName",
+    "Email",
+    "PasswordHash",
+    "Role"
+)
+VALUES
+(
+    'System Admin',
+    'admin@tasktrack.com',
+    '$2y$10$yBMXgsPcn..6sYcGE8KWWO/6vhsDvV4lHlJAkfKdq2e3VZlRtgXXi',
+    1
+);
